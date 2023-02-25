@@ -1,19 +1,8 @@
 Project Url : https://crypto-price-app-nine.vercel.app/
 
-# Getting Started
 
-<p align="center">
-  <a href="https://www.youtube.com/@codeofrelevancy" target="_blank" rel="noopener noreferrer">
-    <img width="180" src="https://paradiseofcreativity.com/wp-content/uploads/2023/02/Code-of-Relevancy-Logo-White-Plain.png" alt="Code of Relevancy">
-  </a>
-</p>
 <br/>
-<p align="center">
-  <a href="https://www.youtube.com/@codeofrelevancy/videos" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/youtube/channel/subscribers/UCVcJ4UAyjXS2iihmiIa0xXg?style=social" alt="youtube subscribers"></a>
-  <a href="https://dev.to/codeofrelevancy" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/DEV-Community-blue" alt="dev community"></a>
-  <a href="https://medium.com/@codeofrelevancy" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Medium-Blog-green" alt="medium blog"></a>
-  <a href="https://twitter.com/intent/follow?screen_name=codeofrelevancy" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/twitter/follow/codeofrelevancy?style=social" alt="twitter follow"></a>
-</p>
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
@@ -25,10 +14,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Start by creating a new Next.js project if you don’t have one set up already. The most common approach is to use [Create Next App](https://nextjs.org/docs/api-reference/create-next-app).
 
-```markdown
-npx create-next-app@latest crypto-price-tracker-app --typescript --eslint
-cd crypto-price-tracker-app
-```
+
 
 ### Install Tailwind CSS
 
@@ -101,149 +87,7 @@ Digital money for a digital world.
 Cryptocurrencies are digital or virtual currencies that use cryptography for security and are decentralized, meaning they are not controlled by any government or financial institution.
 ```
 
-## Config
 
-Path: configs\index.js
-
-```markdown
-const CRYPTOCURRENCIES = [
-  {
-    id: "BTC",
-    name: "Bitcoin",
-    symbol: "BTCBUSD",
-    iconCode: 1,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://blockchair.com/bitcoin",
-  },
-  {
-    id: "ETH",
-    name: "Etherium",
-    symbol: "ETHBUSD",
-    iconCode: 1027,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://etherscan.io",
-  },
-  {
-    id: "BNB",
-    name: "BNB",
-    symbol: "BNBBUSD",
-    iconCode: 1839,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://bscscan.com",
-  },
-  {
-    id: "XRP",
-    name: "XRP",
-    symbol: "XRPBUSD",
-    iconCode: 52,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://xrpscan.com",
-  },
-  {
-    id: "DOGE",
-    name: "Dogecoin",
-    symbol: "DOGEBUSD",
-    iconCode: 74,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://blockchair.com/dogecoin",
-  },
-  {
-    id: "MATIC",
-    name: "Polygon",
-    symbol: "MATICBUSD",
-    iconCode: 3890,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://polygonscan.com",
-  },
-  {
-    id: "SOL",
-    name: "Solana",
-    symbol: "SOLBUSD",
-    iconCode: 5426,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://explorer.solana.com",
-  },
-  {
-    id: "SHIB",
-    name: "Shiba Inu",
-    symbol: "SHIBBUSD",
-    iconCode: 5994,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer:
-      "https://etherscan.io/token/0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce",
-  },
-  {
-    id: "APE",
-    name: "ApeCoin",
-    symbol: "APEBUSD",
-    iconCode: 18876,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer:
-      "https://etherscan.io/token/0x4d224452801aced8b2f0aebe155379bb5d594381",
-  },
-  {
-    id: "NEAR",
-    name: "NEAR Protocol",
-    symbol: "NEARBUSD",
-    iconCode: 6535,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://explorer.near.org",
-  },
-  {
-    id: "LUNC",
-    name: "Terra Classic",
-    symbol: "LUNCBUSD",
-    iconCode: 4172,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://finder.terra.money/classic",
-  },
-  {
-    id: "LUNA",
-    name: "Terra",
-    symbol: "LUNABUSD",
-    iconCode: 20314,
-    price: 0,
-    prevPrice: 0,
-    highPrice: 0,
-    lowPrice: 0,
-    explorer: "https://finder.terra.money",
-  },
-];
-export { CRYPTOCURRENCIES };
-```
 
 ## Crypto
 
@@ -271,17 +115,6 @@ Crypto Endpoint URL: https://api.binance.com/api/v3/ticker/24hr?symbols=['ETHUSD
 
 Powered by [Binance](https://www.binance.com)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
